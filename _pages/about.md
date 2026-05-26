@@ -192,9 +192,9 @@ My research lies at the intersection of Cognitive Science and Computer Science, 
 .project-card img {
   width: 100%;
   height: 180px;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
-  background: #f8fafc;
+  background: #fff;
 }
 
 .project-card-body {

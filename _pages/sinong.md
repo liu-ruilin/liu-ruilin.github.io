@@ -1,8 +1,8 @@
 ---
 permalink: /projects/sinong/
+layout: standalone
 title: "Si Nong"
 excerpt: ""
-author_profile: true
 ---
 
 # Si Nong
@@ -32,9 +32,10 @@ Si Nong is an open-source agricultural large language model ecosystem developed 
 
 .publication-image img {
   width: 100%;
-  max-height: 210px;
-  object-fit: cover;
+  height: 210px;
+  object-fit: contain;
   display: block;
+  background: #fff;
 }
 
 .publication-text {
@@ -173,7 +174,7 @@ Si Nong is an open-source agricultural large language model ecosystem developed 
       <div class="publication-placeholder">Coming soon</div>
     </div>
     <div class="publication-text">
-      <h2>Potato Late Blight Pest and Disease Recognition</h2>
+      <h2>马铃薯晚疫病防护智能体</h2>
       <div class="publication-highlight">
         <ul>
           <li>An intelligent recognition system for potato late blight and related pest and disease scenarios is under development.</li>
