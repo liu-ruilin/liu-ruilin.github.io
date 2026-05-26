@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Ruilin Liu"
 description              :
-repository               : "myralala/myralala.github.io"
+repository               : "liu-ruilin/liu-ruilin.github.io"
 url                      : ""  # e.g. https://your-username.github.io
 baseurl                  : ""  # "" for user site, "/repo-name" for project site
 
@@ -40,7 +40,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "myralala"
+  github           : "liu-ruilin"
   google_plus      :
   keybase          :
   instagram        :
