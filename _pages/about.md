@@ -23,89 +23,138 @@ My research lies at the intersection of Cognitive Science and Computer Science, 
 .publication-list {
   display: flex;
   flex-direction: column;
-  gap: 18px;
-  margin-top: 18px;
+  margin-top: 8px;
 }
 
 .publication-card {
-  display: grid;
-  grid-template-columns: minmax(180px, 30%) 1fr;
-  gap: 18px;
-  align-items: stretch;
-  padding: 14px;
-  border: 1px solid #e6e8eb;
-  border-radius: 8px;
-  background: #fff;
+  display: flex;
+  padding: 30px 0;
+  border-bottom: 1px solid #eceff3;
 }
 
-.publication-card img {
+.publication-card:last-child {
+  border-bottom: 0;
+}
+
+.publication-image {
+  flex: 0 0 40%;
+}
+
+.publication-image img {
   width: 100%;
-  height: 100%;
-  min-height: 140px;
+  max-height: 210px;
   object-fit: cover;
-  border-radius: 6px;
-  border: 1px solid #eef0f2;
+  display: block;
 }
 
 .publication-card h3 {
   margin-top: 0;
-  margin-bottom: 8px;
-  font-size: 1.05em;
+  margin-bottom: 6px;
+  font-size: 1em;
   line-height: 1.35;
+  font-weight: 500;
 }
 
-.publication-card p {
-  margin: 0;
+.publication-card h3 a {
+  color: #224b8d;
+  text-decoration: none;
+}
+
+.publication-card h3 a:hover {
+  text-decoration: underline;
+}
+
+.publication-text {
+  flex: 1;
+  padding-left: 30px;
+}
+
+.publication-authors {
+  margin: 0 0 8px 0;
+  color: #333;
+  font-size: 0.95em;
 }
 
 .publication-highlight {
+  margin: 0;
   color: #444;
   font-size: 0.95em;
   line-height: 1.5;
 }
 
+.publication-highlight ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
 .publication-status {
   display: inline-block;
-  margin-bottom: 8px;
-  padding: 2px 8px;
-  border-radius: 999px;
-  background: #f3f4f6;
-  color: #4b5563;
-  font-size: 0.82em;
-  font-weight: 600;
+  margin: 6px 0 0 -6px;
+  padding: 0 15px;
+  background: #00369f;
+  color: #fff;
+  font-size: 12px;
+  line-height: 18px;
 }
 
 @media (max-width: 640px) {
   .publication-card {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+  }
+
+  .publication-text {
+    padding-left: 0;
+    padding-top: 14px;
   }
 }
 </style>
 
 <div class="publication-list">
   <div class="publication-card">
-    <img src="{{ '/images/publications/ffn-organization-vlm.png' | relative_url }}" alt="From Separation to Entanglement">
-    <div>
+    <div class="publication-image">
+      <span class="publication-status">Paper</span>
+      <img src="{{ '/images/publications/ffn-organization-vlm.png' | relative_url }}" alt="From Separation to Entanglement">
+    </div>
+    <div class="publication-text">
       <h3><a href="{{ '/files/publications/ffn-organization-vlm.pdf' | relative_url }}">From Separation to Entanglement: Dissecting Feed-Forward Network Functional Organization in Vision–Language Models for Ancient Chinese Documents</a></h3>
-      <p class="publication-highlight"><strong>Highlight:</strong> Introducing AC-TCGN to uncover task-relevant FFN neurons and cross-task entanglement in ancient Chinese document VLMs.</p>
+      <p class="publication-authors"><strong>Ruilin Liu</strong>, Dongmei Zhu, Yuting Wei et al.</p>
+      <div class="publication-highlight">
+        <ul>
+          <li>Introducing AC-TCGN to uncover task-relevant FFN neurons and cross-task entanglement in ancient Chinese document VLMs.</li>
+        </ul>
+      </div>
     </div>
   </div>
 
   <div class="publication-card">
-    <img src="{{ '/images/publications/guji-tai.png' | relative_url }}" alt="Guji-TAI">
-    <div>
+    <div class="publication-image">
       <span class="publication-status">Under review</span>
+      <img src="{{ '/images/publications/guji-tai.png' | relative_url }}" alt="Guji-TAI">
+    </div>
+    <div class="publication-text">
       <h3>Guji-TAI: Task-Aware Interpretability for Large Language Models in Ancient Chinese Text Processing</h3>
-      <p class="publication-highlight"><strong>Highlight:</strong> A task-aware interpretability framework unifying explanation targets across diverse ancient Chinese text processing tasks.</p>
+      <p class="publication-authors"><strong>Ruilin Liu</strong>, Zhixiao Zhao, Dongbo Wang et al.</p>
+      <div class="publication-highlight">
+        <ul>
+          <li>A task-aware interpretability framework unifying explanation targets across diverse ancient Chinese text processing tasks.</li>
+        </ul>
+      </div>
     </div>
   </div>
 
   <div class="publication-card">
-    <img src="{{ '/images/publications/gazetteer-qa.png' | relative_url }}" alt="Progressive Retrieval-Reasoning-Verification">
-    <div>
+    <div class="publication-image">
       <span class="publication-status">Under review</span>
+      <img src="{{ '/images/publications/gazetteer-qa.png' | relative_url }}" alt="Progressive Retrieval-Reasoning-Verification">
+    </div>
+    <div class="publication-text">
       <h3>Progressive Retrieval-Reasoning-Verification for Evidence-Grounded Question Answering in Chinese Local Gazetteers</h3>
-      <p class="publication-highlight"><strong>Highlight:</strong> Introducing progressive retrieval–reasoning–verification for evidence-grounded and traceable question answering over Chinese local gazetteers.</p>
+      <p class="publication-authors"><strong>Ruilin Liu</strong>, Fan Yang, Dongbo Wang.</p>
+      <div class="publication-highlight">
+        <ul>
+          <li>Introducing progressive retrieval–reasoning–verification for evidence-grounded and traceable question answering over Chinese local gazetteers.</li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
