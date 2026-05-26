@@ -174,7 +174,7 @@ Si Nong is an open-source agricultural large language model ecosystem developed 
       <div class="publication-placeholder">Coming soon</div>
     </div>
     <div class="publication-text">
-      <h2>马铃薯晚疫病防护智能体</h2>
+      <h2>Potato Late Blight Protection Agent</h2>
       <div class="publication-highlight">
         <ul>
           <li>An intelligent recognition system for potato late blight and related pest and disease scenarios is under development.</li>
