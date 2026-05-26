@@ -1,0 +1,13 @@
+# main links links
+main:
+  - title: "About me"
+    url: "/#about-me"
+
+  - title: "Selected Publications"
+    url: "/#selected-publications"
+
+  - title: "Projects"
+    url: "/#projects"
+
+  - title: "Activities"
+    url: "/#activities"
