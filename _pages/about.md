@@ -19,16 +19,99 @@ My research lies at the intersection of Cognitive Science and Computer Science, 
 <span class="anchor" id="selected-publications"></span>
 # Selected Publications
 
-Content coming soon.
+<style>
+.publication-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.publication-card {
+  display: grid;
+  grid-template-columns: minmax(180px, 30%) 1fr;
+  gap: 18px;
+  align-items: stretch;
+  padding: 14px;
+  border: 1px solid #e6e8eb;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.publication-card img {
+  width: 100%;
+  height: 100%;
+  min-height: 140px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #eef0f2;
+}
+
+.publication-card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.05em;
+  line-height: 1.35;
+}
+
+.publication-card p {
+  margin: 0;
+}
+
+.publication-highlight {
+  color: #444;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+.publication-status {
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #f3f4f6;
+  color: #4b5563;
+  font-size: 0.82em;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .publication-card {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<div class="publication-list">
+  <div class="publication-card">
+    <img src="{{ '/images/publications/ffn-organization-vlm.png' | relative_url }}" alt="From Separation to Entanglement">
+    <div>
+      <h3><a href="{{ '/files/publications/ffn-organization-vlm.pdf' | relative_url }}">From Separation to Entanglement: Dissecting Feed-Forward Network Functional Organization in Vision–Language Models for Ancient Chinese Documents</a></h3>
+      <p class="publication-highlight"><strong>Highlight:</strong> Introducing AC-TCGN to uncover task-relevant FFN neurons and cross-task entanglement in ancient Chinese document VLMs.</p>
+    </div>
+  </div>
+
+  <div class="publication-card">
+    <img src="{{ '/images/publications/guji-tai.png' | relative_url }}" alt="Guji-TAI">
+    <div>
+      <span class="publication-status">Under review</span>
+      <h3>Guji-TAI: Task-Aware Interpretability for Large Language Models in Ancient Chinese Text Processing</h3>
+      <p class="publication-highlight"><strong>Highlight:</strong> A task-aware interpretability framework unifying explanation targets across diverse ancient Chinese text processing tasks.</p>
+    </div>
+  </div>
+
+  <div class="publication-card">
+    <img src="{{ '/images/publications/gazetteer-qa.png' | relative_url }}" alt="Progressive Retrieval-Reasoning-Verification">
+    <div>
+      <span class="publication-status">Under review</span>
+      <h3>Progressive Retrieval-Reasoning-Verification for Evidence-Grounded Question Answering in Chinese Local Gazetteers</h3>
+      <p class="publication-highlight"><strong>Highlight:</strong> Introducing progressive retrieval–reasoning–verification for evidence-grounded and traceable question answering over Chinese local gazetteers.</p>
+    </div>
+  </div>
+</div>
 
 
 <span class="anchor" id="projects"></span>
 # Projects
-
-Content coming soon.
-
-
-<span class="anchor" id="activities"></span>
-# Activities
 
 Content coming soon.
