@@ -163,4 +163,78 @@ My research lies at the intersection of Cognitive Science and Computer Science, 
 <span class="anchor" id="projects"></span>
 # Projects
 
-Content coming soon.
+<style>
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 18px;
+}
+
+.project-card {
+  display: block;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.08);
+  border-color: #cbd5e1;
+  text-decoration: none;
+}
+
+.project-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  background: #f8fafc;
+}
+
+.project-card-body {
+  padding: 16px 18px 18px;
+}
+
+.project-card h3 {
+  margin: 0 0 8px;
+  color: #224b8d;
+  font-size: 1.08em;
+}
+
+.project-card p {
+  margin: 0;
+  color: #4b5563;
+  font-size: 0.95em;
+  line-height: 1.55;
+}
+
+@media (max-width: 720px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<div class="project-grid">
+  <a class="project-card" href="{{ '/projects/sinong/' | relative_url }}">
+    <img src="{{ '/images/projects/si-nong.png' | relative_url }}" alt="Si Nong">
+    <div class="project-card-body">
+      <h3>Si Nong</h3>
+      <p>Si Nong is China's first open-source agricultural large language model, based on which we have developed a series of fine-grained LLMs and intelligent agents, such as AI Wenli and Green Shield.</p>
+    </div>
+  </a>
+
+  <a class="project-card" href="https://xunziallm.njau.edu.cn/">
+    <img src="{{ '/images/projects/xunzi.png' | relative_url }}" alt="Xunzi">
+    <div class="project-card-body">
+      <h3>Xunzi</h3>
+      <p>Our project develops an open-source large language model ecosystem for ancient Chinese texts, enabling intelligent processing, research, and application of classical literature.</p>
+    </div>
+  </a>
+</div>
