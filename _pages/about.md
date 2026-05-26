@@ -9,7 +9,34 @@ redirect_from:
 ---
 
 <span class="anchor" id="about-me"></span>
-# About me
+<style>
+.section-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 0;
+  margin-bottom: 0.8em;
+}
+
+.section-heading .section-heading-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75em;
+  height: 1.75em;
+  border-radius: 8px;
+  background: #eef4ff;
+  color: #224b8d;
+  font-size: 0.78em;
+  line-height: 1;
+}
+
+.section-heading + p {
+  margin-top: 0;
+}
+</style>
+
+<h1 class="section-heading"><span class="section-heading-icon"><i class="fas fa-user-graduate" aria-hidden="true"></i></span><span>About me</span></h1>
 
 Hi! I am Ruilin, a Ph.D. student at the College of Information Management, Nanjing Agricultural University. Additionally, I am an active researcher at both the Research Center for Humanities and Social Computing and the Large Language Model Research Center at NJAU. I am privileged to be co-advised by [Prof. Dongbo Wang](https://baike.baidu.com/item/%E7%8E%8B%E4%B8%9C%E6%B3%A2/65038669) and Prof. Shuiqing Huang. At our labs, I work closely with a group of talented colleagues, including [Zhixiao Zhao](https://scholar.google.com/citations?user=ae3BTEMAAAAJ&hl) and [Chang Liu](https://scholar.google.com/citations?user=qN9WYzEAAAAJ&hl). I also benefit immensely from the invaluable guidance and collaboration of [Jin Song](http://scholar.google.com/citations?user=hgv0npkAAAAJ&hl) and [Shiqi Chen](https://scholar.google.com/citations?user=4Tg7zOMAAAAJ&hl).
 
@@ -17,7 +44,7 @@ My research lies at the intersection of Cognitive Science and Computer Science, 
 
 
 <span class="anchor" id="selected-publications"></span>
-# Selected Publications
+<h1 class="section-heading"><span class="section-heading-icon"><i class="fas fa-file-alt" aria-hidden="true"></i></span><span>Selected Publications</span></h1>
 
 <style>
 .publication-list {
@@ -161,7 +188,7 @@ My research lies at the intersection of Cognitive Science and Computer Science, 
 
 
 <span class="anchor" id="projects"></span>
-# Projects
+<h1 class="section-heading"><span class="section-heading-icon"><i class="fas fa-project-diagram" aria-hidden="true"></i></span><span>Projects</span></h1>
 
 <style>
 .project-grid {
