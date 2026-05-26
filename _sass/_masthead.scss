@@ -48,6 +48,13 @@
     display: block !important;
   }
   display: none !important;
+
+  span {
+    display: block;
+    margin-right: 1rem;
+    padding: 0.5rem 0;
+    color: $masthead-link-color;
+  }
 }
 
 .masthead__menu-item {
@@ -60,5 +67,4 @@
     font-weight: 700;
   }
 }
-
 

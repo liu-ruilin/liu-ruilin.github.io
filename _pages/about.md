@@ -112,7 +112,7 @@ My research lies at the intersection of Cognitive Science and Computer Science, 
 <div class="publication-list">
   <div class="publication-card">
     <div class="publication-image">
-      <span class="publication-status">Paper</span>
+      <span class="publication-status">ACL March ARR</span>
       <img src="{{ '/images/publications/ffn-organization-vlm.png' | relative_url }}" alt="From Separation to Entanglement">
     </div>
     <div class="publication-text">

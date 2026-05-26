@@ -29,8 +29,8 @@ author:
   location         : "Nanjing, China"
   employer         :
   pubmed           : 
-  googlescholar    :
-  cv               :
+  googlescholar    : "https://scholar.google.com/citations?user=q2skelkAAAAJ&h"
+  cv               : "/files/CV_Ruilin_Liu_v2.pdf"
   email            : "liurl@stu.njau.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
