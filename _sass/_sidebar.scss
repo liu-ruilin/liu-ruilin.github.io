@@ -255,6 +255,27 @@
   }
 }
 
+.author-quote {
+  margin-top: 0.9em;
+  padding-top: 0.8em;
+  border-top: 1px solid $border-color;
+  color: mix(#000, $gray, 35%);
+  font-style: italic;
+  line-height: 1.45;
+
+  p {
+    margin: 0;
+  }
+
+  cite {
+    display: block;
+    margin-top: 0.35em;
+    color: mix(#000, $gray, 45%);
+    font-style: italic;
+    text-align: right;
+  }
+}
+
 .author__urls_sm{
   padding: .25em;
   font-size: 1.75em;
