@@ -262,9 +262,13 @@
   color: mix(#000, $gray, 35%);
   font-style: italic;
   line-height: 1.45;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  white-space: normal !important;
 
   p {
     margin: 0;
+    white-space: normal;
   }
 
   cite {
