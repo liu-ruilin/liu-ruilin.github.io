@@ -16,6 +16,14 @@ Hi! I am Ruilin, a Ph.D. student at the College of Information Management, Nanji
 My research interests lie at the intersection of cognitive science and computer science, with a focus on the interpretability of LLMs. Aiming to develop more reliable and equitable multilingual models, I investigate how LLMs acquire, organize, transfer, and update knowledge under low-resource, cross-lingual, and historical settings. Furthermore, I am dedicated to understanding and mitigating cross-lingual knowledge conflicts towards building more trustworthy AI.
 
 
+<span class="anchor" id="news"></span>
+<h1>📰 News</h1>
+
+<ul>
+  <li><strong>[Jun. 2026]</strong> Received a 2026 Jiangsu Graduate Research and Practice Innovation Program grant as project lead.</li>
+</ul>
+
+
 <span class="anchor" id="selected-publications"></span>
 <h1>📘 Selected Publications</h1>
 
@@ -238,3 +246,4 @@ My research interests lie at the intersection of cognitive science and computer 
     </div>
   </a>
 </div>
+
