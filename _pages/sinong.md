@@ -131,7 +131,7 @@ Si Nong is an open-source agricultural large language model ecosystem developed 
       <div class="publication-highlight">
         <ul>
           <li>AI Wenli is the world's first openly accessible LLM for the pear industry, trained on a 500M+ token domain corpus validated by over 150 experts and enriched with knowledge from more than 40 industry scientists.</li>
-          <li>The platform integrates RAG, web search, Text2SQL, and DeepResearch to support domain-specific Q&amp;A, genomic database queries, and automated industry report generation.</li>
+          <li>The platform integrates RAG, web search, Text2SQL, and DeepResearch to support domain-specific question answering, genomic database queries, and automated industry report generation.</li>
           <li>Website: <a href="https://www.aiwenli.com/">https://www.aiwenli.com/</a></li>
         </ul>
       </div>
