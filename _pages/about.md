@@ -20,9 +20,9 @@ My research interests lie at the intersection of cognitive science and computer 
 <h1>📰 News</h1>
 
 <ul>
-  <li><strong>[Jun. 2026]</strong> Received a 2026 Jiangsu Graduate Research and Practice Innovation Program grant as project lead. 🎉🎉🎉</li>
   <li><strong>[Aug. 2026]</strong> One paper was accepted to Findings of EMNLP 2026.</li>
   <li><strong>[Aug. 2026]</strong> Our group launched Sinong 2.0, a unified agricultural AI service featuring agent-based routing and multiple specialized models, including Wenli, Green Shield, Wendou, and other domain-specific models. 🎉🎉🎉</li>
+  <li><strong>[Jun. 2026]</strong> Received a 2026 Jiangsu Graduate Research and Practice Innovation Program grant as project lead. 🎉🎉🎉</li>
 </ul>
 
 
