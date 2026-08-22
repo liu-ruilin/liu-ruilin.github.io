@@ -20,7 +20,9 @@ My research interests lie at the intersection of cognitive science and computer 
 <h1>📰 News</h1>
 
 <ul>
-  <li><strong>[Jun. 2026]</strong> Received a 2026 Jiangsu Graduate Research and Practice Innovation Program grant as project lead.</li>
+  <li><strong>[Jun. 2026]</strong> Received a 2026 Jiangsu Graduate Research and Practice Innovation Program grant as project lead. 🎉🎉🎉</li>
+  <li><strong>[Aug. 2026]</strong> One paper was accepted to Findings of EMNLP 2026.</li>
+  <li><strong>[Aug. 2026]</strong> Our group launched Sinong 2.0, a unified agricultural AI service featuring agent-based routing and multiple specialized models, including Wenli, Green Shield, Wendou, and other domain-specific models. 🎉🎉🎉</li>
 </ul>
 
 
@@ -120,11 +122,11 @@ My research interests lie at the intersection of cognitive science and computer 
 <div class="publication-list">
   <div class="publication-card">
     <div class="publication-image">
-      <span class="publication-status">ACL March ARR</span>
+      <span class="publication-status">EMNLP 2026</span>
       <img src="{{ '/images/publications/ffn-organization-vlm.png' | relative_url }}" alt="From Separation to Entanglement">
     </div>
     <div class="publication-text">
-      <h3><a href="{{ '/files/publications/ffn-organization-vlm.pdf' | relative_url }}">From Separation to Entanglement: Dissecting Feed-Forward Network Functional Organization in Vision–Language Models for Ancient Chinese Documents</a></h3>
+      <h3>From Separation to Entanglement: Dissecting Feed-Forward Network Functional Organization in Vision–Language Models for Ancient Chinese Documents</h3>
       <p class="publication-authors"><strong>Ruilin Liu</strong>, Dongmei Zhu, Yuting Wei et al.</p>
       <div class="publication-highlight">
         <ul>
