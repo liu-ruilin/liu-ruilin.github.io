@@ -140,40 +140,6 @@ Si Nong is an open-source agricultural large language model ecosystem developed 
 
   <div class="publication-card">
     <div class="publication-image">
-      <span class="publication-status">Platform</span>
-      <img src="{{ '/images/projects/green-shield.png' | relative_url }}" alt="Green Shield">
-    </div>
-    <div class="publication-text">
-      <h2><a href="https://psllm.njau.edu.cn/">Green Shield</a></h2>
-      <div class="publication-highlight">
-        <ul>
-          <li>Green Shield is China’s first openly accessible LLM for plant protection, jointly developed by 30+ research and industry partners and trained on a 2.5B+ token domain corpus.</li>
-          <li>Its three-stage Precision–Expertise–Compliance framework integrates RAG and retrieval-enhanced technologies for evidence-grounded QA and literature retrieval across research, education, agricultural production, and government decision-making.</li>
-          <li>Website: <a href="https://psllm.njau.edu.cn/">https://psllm.njau.edu.cn/</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="publication-card">
-    <div class="publication-image">
-      <span class="publication-status">Model</span>
-      <img src="{{ '/images/projects/soy-ai.png' | relative_url }}" alt="SoyAI">
-    </div>
-    <div class="publication-text">
-      <h2><a href="https://soyai.njau.edu.cn/">SoyAI</a></h2>
-      <div class="publication-highlight">
-        <ul>
-          <li>SoyAI is China’s first openly accessible LLM dedicated to the soybean industry, built on a 1.5B+ token domain corpus spanning breeding, cultivation, pest management, policy, and markets.</li>
-          <li>It combines curated domain knowledge with authoritative web and academic sources, enabling reliable pest diagnosis, risk assessment, and actionable guidance for sustainable soybean production through a progressive three-stage QA workflow.</li>
-          <li>Website: <a href="https://soyai.njau.edu.cn/">https://soyai.njau.edu.cn/</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="publication-card">
-    <div class="publication-image">
       <span class="publication-status">Coming soon</span>
       <div class="publication-placeholder">Coming soon</div>
     </div>

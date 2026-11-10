@@ -126,7 +126,7 @@ My research interests lie at the intersection of Natural Language Processing and
       <img src="{{ '/images/publications/ffn-organization-vlm.png' | relative_url }}" alt="From Separation to Entanglement">
     </div>
     <div class="publication-text">
-      <h3>From Separation to Entanglement: Dissecting Feed-Forward Network Functional Organization in Vision–Language Models for Ancient Chinese Documents</h3>
+      <h3><a href="https://aclanthology.org/2026.findings-emnlp.1095/">From Separation to Entanglement: Dissecting Feed-Forward Network Functional Organization in Vision–Language Models for Ancient Chinese Documents</a></h3>
       <p class="publication-authors"><strong>Ruilin Liu</strong>, Dongmei Zhu, Yuting Wei et al.</p>
       <div class="publication-highlight">
         <ul>
